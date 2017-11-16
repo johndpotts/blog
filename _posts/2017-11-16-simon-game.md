@@ -56,7 +56,8 @@ A quick checklist of the files you’ll want to edit to get up and running.
 ### Site Wide Configuration
 `_config.yml` is your friend. Open it up and personalize it. Most variables are self explanatory but here's an explanation of each if needed:
 
-#### title
+
+#### the title
 
 The title of your site... shocker!
 

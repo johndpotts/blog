@@ -15,7 +15,8 @@ layout: compress
     <header class="header" role="banner">
         <div class="wrapper animated fadeIn">
             <div class="content">
-                <div class="post-title {% if page.feature %} feature {% endif %}">
+                <div class="post-title   {% if page.feature %} feature {% endif %}">
+
                     <h1>{{ page.title }}</h1>
                     <h4>{{ page.date | date_to_string }}</h4>
                     {% if site.reading_time %}
@@ -32,6 +33,7 @@ layout: compress
                         <i class="fa fa-chevron-left"></i>
                     </a>
                 </div>
+              
                 {{ content }}
                 <div class="entry-meta">
                 {% include meta.html %}
