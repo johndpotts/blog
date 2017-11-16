@@ -33,7 +33,7 @@
 
 // headings
 h3.title a {
-	color: $color_shark;
+	color: $black;
 	text-decoration: none;
 }
 
@@ -48,16 +48,17 @@ h3.title a {
 		padding: 10px 18px;
 		margin: 0 10px;
 		text-decoration: none;
-		background: $white;
-		color: $color_shark;
+		background: $opaque;
+		color: $white;
 		a {
 			@include font-rem(20);
 			text-decoration: none;
-			color: $color_shark;
+			color: $white;
 			font-weight: bolder;
             &:hover {
                 color: $red;
             }
+
 		}
 		p {
 			font-weight: lighter;
@@ -147,4 +148,8 @@ table {
 // description title
 dt {
     font-weight: bolder;
+}
+
+.blackletters{
+	color:$black !important;
 }
