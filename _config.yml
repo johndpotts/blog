@@ -5,7 +5,7 @@ description:        "Passionate about great development."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/me.jpg'
-background:         'assets/img/uptown.jpg'
+#background:         'assets/img/uptown.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://johndpotts.github.io
