@@ -4,7 +4,7 @@ bio:                'Front End Developer.'
 description:        "Passionate about great development."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/me.jpg' 
+logo:               'assets/img/me.jpg'
 background:         'assets/img/uptown.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
@@ -57,13 +57,13 @@ linkedin:          jdpotts189
 #soundcloud:        username
 #weibo:             username
 #flickr:            username
-#codepen:           username
+codepen:           johndpotts
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
 
 # Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
