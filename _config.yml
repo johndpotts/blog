@@ -15,7 +15,7 @@ theme_settings:
   header_text: >
      <p>John D Potts </p>
      <p>Web Developer</p>
-  header_text_feature_image: assets/img/logo.png
+  header_text_feature_image: assets/img/pexels/mountains.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
