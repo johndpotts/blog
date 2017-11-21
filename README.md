@@ -3,8 +3,8 @@
 ## To-Do
 
 ### Content
-[ ] Round out about me Section
-[ ] complete 5 starter posts
+- [ ] Round out about me Section
+- [ ] complete 5 starter posts
 [ ] footer
 [x] social Icons
 [ ] landing page
