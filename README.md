@@ -39,3 +39,4 @@ The plan is to have 5-ish posts per week
 - [ ] CSS trick - inline div Space
 - [ ] d3 tutorial
 - [ ] local storage
+- [ ] udemy vs udacity vs freecodecamp vs codecademy vs pluralsight
