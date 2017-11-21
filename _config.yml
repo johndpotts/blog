@@ -1,76 +1,86 @@
-# Site
-title:              John D Potts
-bio:                'Front End Developer.'
-description:        "Passionate about great development."
-reading_time:       true
-words_per_minute:   200
-logo:               'assets/img/me.jpg'
-#background:         'assets/img/uptown.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             en_US
-url:                https://johndpotts.github.io
+# SITE CONFIGURATION
+baseurl: ""
+url: "https://johndpotts.github.io"
 
-# Jekyll
-permalink:          /:title/
-markdown:           kramdown
-highlighter:        rouge
-kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: John D Potts
+  avatar: assets/img/me.jpg
+  favicon: assets/favicon.png
+  gravatar: # Email MD5 hash
+  description: "Portfolio and Blog of John D Potts, a developer in Charlotte, NC." # used by search engines
+
+  # Header and footer text
+  header_text: >
+     <p>John D Potts </p>
+     <p>Web Developer</p>
+  header_text_feature_image: assets/img/logo.png
+  footer_text: >
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+
+  # Icons
+  rss: false
+  email_address: "jdpotts189@gmail.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  gitlab:
+  github: "johndpotts"
+  google_plus:
+  instagram:
+  linkedin:  "https://www.linkedin.com/in/jdpotts189"
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: "johndpotts"
+  wordpress:
+  youtube: "https://www.youtube.com/channel/UCR4tzYj7xwRAh42pbvXMcOw"
+
+  # Scripts
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname:
+  katex: true # Enable if using math markup
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next_post: "Next post"
+  str_previous_post: "Previous post"
+  str_next_page: "Next"
+  str_previous_page: "Prev"
+  str_continue_reading: "Continue reading"
+  str_javascript_required_disqus: "Please enable JavaScript to view comments."
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Post navigation
+  post_navigation: false
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# PORTFOLIO
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
 sass:
-  sass_dir:         _sass
-  style:            compressed
-
-# Comments
-disqus_shortname:   johndpotts
-
-# Social
-# if you don't have any of social below, comment the line.
-#google:
-  #plus:            #username
-  #analytics:
-  #verify:
-  #ad-client:
-  #ad-slot:
-#bing-verify:
-#email:
-twitter:            johndpotts
-facebook:           johndpotts1
-github-url:         johndpotts
-stackoverflow:    8751392/john-d-potts
-linkedin:          jdpotts189
-#xing:              username
-#instagram:          username
-#lastfm:            username
-#tumblr:            username
-#medium:            '@username'
-#pinterest:         username
-#foursquare:        username
-#steam:              username
-#dribbble:          username
-#youtube:           username
-#youtube-channel:   channel
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-codepen:           johndpotts
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
-
-# Gems
-plugins:
-  - jekyll-mentions
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
-
-jekyll-mentions:
-    base_url: https://github.com
-
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-paginate, jekyll-seo-tag]
+theme: type-on-strap # If using the theme as a jekyll theme gem
+exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
