@@ -17,7 +17,7 @@ theme_settings:
      <p>Web Developer</p>
   header_text_feature_image: assets/img/pexels/mountains.jpeg
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> hosted on <a href="https://pages.github.com/">Github Pages</a>
 
   # Icons
   rss: false
