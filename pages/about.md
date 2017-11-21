@@ -2,11 +2,15 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "assets/img/pexels/circuit.jpeg"
+feature-img: "assets/img/me.jpg"
 ---
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+Hi, I'm John. I love building things. I love to laugh. I love solving problems, working with a team, and learning new things every day.
+I grew up in Seattle, lived in Florida, then discovered that Charlotte makes a great middle ground.
 
-Head over to the [theme's documentation](https://github.io/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+Why do I love coding?
+
+1. It's where the practical and the creative collide.
+2. It offers a new challenge every day.
+3. You get to make cool stuff with nothing but your brain, a bunch of 1's and 0's, and regular conversations with google and stack overflow.
